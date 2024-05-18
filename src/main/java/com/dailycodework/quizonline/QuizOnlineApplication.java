@@ -14,7 +14,7 @@ public class QuizOnlineApplication {
   return new WebMvcConfigurer() {
    @Override
    public void addCorsMappings(CorsRegistry reg) {
-    reg.addMapping("/**").allowedOrigins("*");
+    reg.addMapping("/**").allowedOrigins("https://quiz-front-end-omega.vercel.app/");
    }
   };
   
